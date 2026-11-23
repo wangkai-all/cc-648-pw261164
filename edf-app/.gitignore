@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.venv/
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Node / 前端
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+
+# 样例可由 scripts/generate_samples.py 重新生成
+backend/samples/*.edf
